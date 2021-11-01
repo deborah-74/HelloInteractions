@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45012087, g: 0.5001628, b: 0.57545525, a: 1}
+  m_IndirectSpecularColor: {r: 0.45012075, g: 0.50016224, b: 0.5754549, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -481,6 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52b7730399c40448c80da2183b2166ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transitionMaterial: {fileID: 0}
+  transitionSpeed: 1
   initialScene: Lobby
 --- !u!4 &1312978349
 Transform:
